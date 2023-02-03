@@ -1,7 +1,7 @@
 //implement the styled-components logic here.
-import styledComponents from "styled-components";
+import styled from "styled-components";
 
-const Card = styledComponents.div`
+const Card = styled.div`
     box-sizing: border-box;
     max-width: 410px;
     margin: 0 auto;
@@ -11,20 +11,20 @@ const Card = styledComponents.div`
     align-items: center;
 `;
 
-const Form = styledComponents.form`
+const Form = styled.form`
     display: flex;
     flex-direction: column;
     width: 100%;
 `;
 
-const Input = styledComponents.input`
+const Input = styled.input`
     padding: 1rem;
     border: 1px solid #999;
     margin-bottom: 1rem;
     font-size: 0.8rem;
 `;
 
-const Button = styledComponents.button`
+const Button = styled.button`
     background: linear-gradient(to bottom, #6371c7, #5563c1);
     border-color: #3f4eae;
     border-radius: 3px;
